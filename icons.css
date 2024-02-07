@@ -1,0 +1,47 @@
+.setting-icon{
+    width: 30px;
+    height: 30px;
+    padding-top: 25px;
+    
+}
+
+.bell-icon{
+    width: 25px;
+    height: 30px;
+    padding-top: 25px;
+    
+}
+.darkmode{
+    width: 40px;
+    height: 20px;
+    padding-top: 25px;
+}
+
+/* main log image */
+.main-logo
+{
+    width: 400px;
+    height: 90px;
+}
+
+.main-logo-icon{
+    width: 100px;
+    height: 90px;
+    
+}
+
+.home-icon{
+   width: 40px;
+   padding:14px;
+
+    
+}
+.group-icon{
+    width: 40px;
+    padding: 14px;
+}
+
+.barchart-icon{
+    width: 40px;
+    padding: 14px;
+}
