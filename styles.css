@@ -69,10 +69,10 @@ body{
     
 }
 
-.lumos-ai:hover{
+/* .lumos-ai:hover{
     box-shadow: 0 5px 15px 7px #25b959 ;
    
-}
+} */
 
 
 .header-right{
@@ -99,21 +99,50 @@ body{
     #333333;
     margin-top: 70px;
     margin-left: 200px;
-    height: 650px;
-    width: 480px ;
+    height: 200px;
+    width: 250px ;
     border-radius: 15px;
-    flex: 1;
+    flex: 2;
 }
 .container2{
     background-color: #333333;
     margin-top: 70px;
     margin-left:50px;
-    height: 650px;
-    width: 480px ;
+    height: 200px;
+    width: 250px ;
     border-radius: 15px;
     flex: 1;
     margin-right: 40px;
     margin-bottom: 30px;
+    flex:2;
+    
+}
+
+.container3{
+    background-color: #bbb3b3;
+    margin-top: 70px;
+    margin-left:20px;
+    height: 200px;
+    width: 250px ;
+    border-radius: 15px;
+    flex: 1;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    flex: 1.4;
+    /* box-shadow: rgba(#111111) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+}
+
+.container3:hover{
+    box-shadow: rgba(25, 202, 93, 0.4) -5px 5px, rgba(25, 202, 93, 0.4) -10px 10px, rgba(25, 202, 93, 0.4) -15px 15px, rgba(25, 202, 93, 0.4) -20px 20px, rgba(25, 202, 93, 0.4) -25px 25px;
+    
+    cursor: pointer;
+}
+
+.add-devices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .main-container{
@@ -121,10 +150,15 @@ body{
     flex-direction: row;
     background-color: #888181;
     margin-left: -20px;
+    height: 500px;
+    padding-top: 50px;
 }
 
+
+/* my divices */
 .second-head{
     padding-left: 120px ;
+    padding-bottom: 30px;
     height: 200px;
     background-color: rgb(18, 18, 17);
     
@@ -171,3 +205,5 @@ body{
     color: white;
     font-size: 20px;
 }
+
+
